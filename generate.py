@@ -1,10 +1,8 @@
 import argparse
-import os
 import random
 
 import numpy as np
 import torch
-import torch.nn as nn
 
 from model_pytorch import LMModel, load_openai_pretrained_model
 from text_utils import TextEncoder
@@ -18,7 +16,6 @@ def create_dictionary(encoder):
              'good', 'stay', 'there']
     for w in words:
         encoded_words.append(encoder.encode([w,]))
-
 
 def make_batch(X):
     X = np.array(X)
@@ -78,6 +75,7 @@ if __name__ == '__main__':
     parser.add_argument('--topk', type=int, default=10) ## changed to 5 from 10
 
 
+
     args = parser.parse_args()
     print(args)
 
@@ -107,6 +105,7 @@ if __name__ == '__main__':
     n_special = 0   # XD: useless for language modeling task
     vocab = n_vocab + n_special + n_ctx #the size of the vocabalery - in this case it is letters - so I don;t think its what we need
 
+
     lm_model = LMModel(args, vocab, n_ctx, return_probs=True)
     load_openai_pretrained_model(lm_model.transformer, n_ctx=n_ctx, n_special=n_special)
     lm_model.to(device)
@@ -114,7 +113,6 @@ if __name__ == '__main__':
     lm_model.eval()
     #till now it loaded the previuos model and the vocabalery that will be used
     text = input('Input some beginning words:') #why we need this?
-
     create_dictionary(text_encoder)
 
     while text != 'q':
@@ -145,3 +143,4 @@ if __name__ == '__main__':
 
 
         print() # what is the aim of this print?
+        text = input('Input some beginning words:')
