@@ -143,4 +143,5 @@ if __name__ == '__main__':
             print(next_token, end=' ')
             XMB = append_batch(XMB, next_idx)
 
-        print()
+
+        print() # what is the aim of this print?
