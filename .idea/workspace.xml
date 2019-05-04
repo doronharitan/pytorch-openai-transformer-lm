@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cff0ec9a-e42e-40cc-a53a-87a660aa6253" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/pytorch-openai-transformer-lm/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch-openai-transformer-lm/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch-openai-transformer-lm/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch-openai-transformer-lm/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch-openai-transformer-lm/analysis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch-openai-transformer-lm/assets/ftlm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch-openai-transformer-lm/datasets.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch-openai-transformer-lm/generate.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch-openai-transformer-lm/loss.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch-openai-transformer-lm/model_pytorch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch-openai-transformer-lm/opt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch-openai-transformer-lm/parameters_names.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch-openai-transformer-lm/text_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch-openai-transformer-lm/train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytorch-openai-transformer-lm/utils.py" beforeDir="false" />
-    </list>
+    <list default="true" id="cff0ec9a-e42e-40cc-a53a-87a660aa6253" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,15 +18,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/envs/cs231n/Lib/site-packages/tqdm/_tqdm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="97" selection-start-line="97" selection-end-line="97" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generate.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
@@ -74,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-927" />
+              <first_editor relative-caret-position="-738" />
               <second_editor />
             </state>
           </provider>
@@ -152,7 +127,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/pytorch-openai-transformer-lm" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -164,7 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="170" />
     <option name="y" value="160" />
     <option name="width" value="1750" />
@@ -396,16 +371,15 @@
       <workItem from="1556360206930" duration="250000" />
       <workItem from="1556360484281" duration="183000" />
       <workItem from="1556360696380" duration="26704000" />
-      <workItem from="1556964658128" duration="6962000" />
+      <workItem from="1556964658128" duration="7243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38267000" />
+    <option name="totallyTimeSpent" value="38548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23758389" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -413,7 +387,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.42917848" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.43909347" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43909347" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -421,7 +395,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.30311614" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.7790368" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -691,13 +665,6 @@
     <entry file="file://$PROJECT_DIR$/word_language_model/data.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/word_language_model/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="78" column="48" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/word_language_model/model.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -776,14 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-927" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -805,6 +764,21 @@
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/word_language_model/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="78" column="48" selection-start-line="78" selection-start-column="48" selection-end-line="78" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-738" />
+          <second_editor />
         </state>
       </provider>
     </entry>

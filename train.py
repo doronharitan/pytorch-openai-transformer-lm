@@ -195,10 +195,10 @@ if __name__ == '__main__':
     n_gpu = torch.cuda.device_count()
     print("device", device, "n_gpu", n_gpu)
 
-    logger = ResultLogger(path=os.path.join(log_dir, '{}.jsonl'.format(desc)), **args.__dict__) #what is the result?
-    text_encoder = TextEncoder(args.encoder_path, args.bpe_path)  #contained the endocer and decoder for each text symble.
-    encoder = text_encoder.encoder #the actual encoder.
-    n_vocab = len(text_encoder.encoder) #the size of text symbels.
+    logger = ResultLogger(path=os.path.join(log_dir, '{}.jsonl'.format(desc)), **args.__dict__)
+    text_encoder = TextEncoder(args.encoder_path, args.bpe_path)
+    encoder = text_encoder.encoder
+    n_vocab = len(text_encoder.encoder)
 
     print("Encoding dataset...")
     ((trX1, trX2, trX3, trY),
