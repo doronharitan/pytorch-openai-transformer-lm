@@ -133,7 +133,7 @@ if __name__ == '__main__':
                     tmp += [lm_probs[:, -1, :][:, index].item()] #ToDo
                     # if tmp >= prob:
                     #     prob = tmp
-                    #     choosen_word = index
+                    #     choosen_word = index  - I think we can delete this part
                 next_idx = torch.Tensor([tmp])
                 values, indices = next_idx.topk(args.topk)
                 # values, indices = lm_probs[:, -1, :].topk(args.topk)
